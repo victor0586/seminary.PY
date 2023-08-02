@@ -1,0 +1,30 @@
+# Task001  Заполните массив элементами арифметической прогрессии. 
+#Её первый элемент, разность и количество элементов нужно ввести с клавиатуры. 
+#Формула для получения n-го члена прогрессии: an = a1 + (n-1) * d.
+#Каждое число вводится с новой строки.
+#a1 = int(input("Введите первый элемент прогрессии: "))
+#d = int(input("Введите разность прогрессии: "))
+#n = int(input("Введите количество элементов: "))
+
+#progression = []
+#for i in range(n):
+    #progression.append(a1 + i * d)
+
+#print("Арифметическая прогрессия:")
+#for num in progression:
+    #print(num)
+# Task002 Определить индексы элементов массива (списка), 
+#значения которых принадлежат заданному диапазону (т.е. не меньше заданного минимума и не больше заданного максимума)
+#def find_indices(arr, min_val, max_val):
+    #indices = []
+    #for i in range(len(arr)):
+       # if arr[i] >= min_val and arr[i] <= max_val:
+           # indices.append(i)
+   # return indices
+
+#arr = [1, 5, 2, 7, 10, 3]
+#min_val = 3
+#max_val = 8
+
+#result = find_indices(arr, min_val, max_val)
+#print(result) 
