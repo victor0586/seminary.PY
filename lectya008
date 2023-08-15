@@ -1,0 +1,56 @@
+# Task008.Дополнить телефонный справочник возможностью изменения и удаления данных. 
+#Пользователь также может ввести имя или фамилию, и Вы должны реализовать функционал для изменения и удаления данных
+
+#class PhoneBook:
+ #   def __init__(self):
+  #      self.contacts = {}
+#
+ #   def add_contact(self, name, phone, description):
+  #      self.contacts[name] = {
+   #         'phone': phone,
+    #        'description': description
+     #   }
+
+ #   def edit_contact(self, name, phone=None, description=None):
+  #      if name in self.contacts:
+   #         if phone:
+    #            self.contacts[name]['phone'] = phone
+     #       if description:
+      #          self.contacts[name]['description'] = description
+       #     print('Контакт успешно отредактирован.')
+        #else:
+         #   print('Контакт не найден.')
+
+ #   def delete_contact(self, name):
+  #      if name in self.contacts:
+   #         del self.contacts[name]
+    #        print('Контакт успешно удален.')
+     #   else:
+      #      print('Контакт не найден.')
+            
+   # def search_contact(self, keyword):
+    #    results = []
+     #   for name, data in self.contacts.items():
+      #      if keyword in name or keyword in data['description']:
+       #         results.append((name, data['phone'], data['description']))
+        #return results
+            
+
+#phone_book = PhoneBook()
+
+# Добавление контактов
+#phone_book.add_contact('Иванов Иван', 111, 'описание Иванова')
+#phone_book.add_contact('Петров Петр', 222, 'описание Петрова')
+#phone_book.add_contact('Васичкина Василиса', 333, 'описание Васичкиной')
+#phone_book.add_contact('Питонов Антон', 777, 'умеет в Питон')
+
+# Изменение контакта по имени
+#phone_book.edit_contact('Иванов Иван', phone=12345, description='новое описание Иванова')
+
+# Удаление контакта по имени
+#phone_book.delete_contact('Васичкина Василиса')
+
+# Поиск контакта по ключевому слову
+#results = phone_book.search_contact('Петр')
+#for name, phone, description in results:
+ #   print(f'{name}: {phone} ({description})')
